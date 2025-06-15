@@ -1,0 +1,130 @@
+.form-container{
+    padding: 45px 50px;
+    background-color: var(--secondary-bg);
+    border-radius: 15px;
+    max-width: 452px;
+    width: 100%;
+    box-shadow:  0 7px 23px 0 rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 275px;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-head{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--primary-font-color);
+}
+
+.social-icons-container{
+    gap: 15px;
+    margin: 22px 0px;
+}
+
+.social-icon-box{
+    height: 75px;
+    width: 75px;
+    border-radius: 15px;
+    border: 1px solid var(--border-color);
+    background-color: transparent;
+}
+
+.social-icon{
+    height: 25px;
+    width: 25px;
+}
+
+.form-break{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--secondary-font-color);
+    margin-bottom: 17px;
+}
+
+.form-label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--primary-font-color);
+    margin-bottom: 6px;
+}
+
+.form-input{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--secondary-font-color);
+    padding-left: 20px;
+    height: 50px;
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid var(--border-color);
+}
+
+.input-container{
+    margin-bottom: 24px;
+}
+
+.form-submit{
+    border-radius: 12px;
+    padding: 0px 8px;
+    width: 100%;
+    height: 45px;
+    background-color: var(--primary-color);
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--secondary-bg);
+}
+
+.switch-input{
+    box-shadow: none !important;
+    cursor: pointer;
+    height: 19px !important;
+    width: 36px !important;
+}
+
+.switch-input:checked{
+    background-color: var(--primary-color) !important;
+    border: none !important;
+}
+
+.switch-label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--primary-font-color);
+    margin-left: 10px;
+}
+
+.switch-container{
+    margin-bottom: 36px;
+}
+
+@media (max-width:576px){
+    .form-container{
+        width: 305px;
+        padding: 20px;
+    }
+
+    .form-input{
+        width: 260px;
+    }
+}

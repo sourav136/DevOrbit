@@ -1,0 +1,48 @@
+.login-page{
+    padding: 20px;
+}
+
+.login-page-contents{
+    background-image: url(../assets/images/Login_page_bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    height: 520px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.login-page-head{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--secondary-bg);
+    margin-bottom: 10px;
+    margin-top: 55px;
+}
+
+.login-page-description{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--secondary-bg);
+    max-width: 333px;
+}
+
+@media (max-width:576px){
+    .login-page{
+        padding: 5px;
+    }
+
+    .login-page-description{
+        padding: 10px;
+    }
+}

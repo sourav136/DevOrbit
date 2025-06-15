@@ -1,0 +1,618 @@
+{
+  "admin": {
+    "id": "admin1",
+    "name": "Project Manager",
+    "email": "admin@devorbit.com",
+    "password": "admin123"
+  },
+  "developers": [
+    {
+      "id": "dev1",
+      "name": "Alice",
+      "role": "Frontend Developer",
+      "email": "alice@devorbit.com",
+      "password": "alice123"
+    },
+    {
+      "id": "dev2",
+      "name": "Bob",
+      "role": "Backend Developer",
+      "email": "bob@devorbit.com",
+      "password": "bob123"
+    },
+    {
+      "id": "dev3",
+      "name": "Charlie",
+      "role": "Full Stack Developer",
+      "email": "charlie@devorbit.com",
+      "password": "charlie123"
+    },
+    {
+      "id": "dev4",
+      "name": "Diana",
+      "role": "Frontend Developer",
+      "email": "diana@devorbit.com",
+      "password": "diana123"
+    },
+    {
+      "id": "dev5",
+      "name": "Ethan",
+      "role": "Backend Developer",
+      "email": "ethan@devorbit.com",
+      "password": "ethan123"
+    },
+    {
+      "id": "dev6",
+      "name": "Fiona",
+      "role": "Full Stack Developer",
+      "email": "fiona@devorbit.com",
+      "password": "fiona123"
+    },
+    {
+      "id": "dev7",
+      "name": "George",
+      "role": "Frontend Developer",
+      "email": "george@devorbit.com",
+      "password": "george123"
+    },
+    {
+      "id": "dev8",
+      "name": "Hannah",
+      "role": "Backend Developer",
+      "email": "hannah@devorbit.com",
+      "password": "hannah123"
+    }
+  ],
+  "projects": [
+    {
+      "name": "TactiCode",
+      "team": [
+        "dev1",
+        "dev2",
+        "dev7",
+        "dev8"
+      ],
+      "progress": 73
+    },
+    {
+      "name": "ShopSphere",
+      "team": [
+        "dev3",
+        "dev4",
+        "dev5",
+        "dev6"
+      ],
+      "progress": 54
+    },
+    {
+      "name": "NeoNexus",
+      "team": [
+        "dev1",
+        "dev3",
+        "dev5",
+        "dev7"
+      ],
+      "progress": 68
+    },
+    {
+      "name": "AstroAtlas",
+      "team": [
+        "dev2",
+        "dev4",
+        "dev6",
+        "dev8"
+      ],
+      "progress": 88
+    }
+  ],
+  "tasks": [
+    {
+      "developerId": "dev1",
+      "project": "TactiCode",
+      "title": "Fix API module",
+      "status": "in progress"
+    },
+    {
+      "developerId": "dev1",
+      "project": "TactiCode",
+      "title": "Implement UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev1",
+      "project": "TactiCode",
+      "title": "Build dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev1",
+      "project": "TactiCode",
+      "title": "Design auth module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev1",
+      "project": "NeoNexus",
+      "title": "Build API module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev1",
+      "project": "NeoNexus",
+      "title": "Fix UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev1",
+      "project": "NeoNexus",
+      "title": "Implement dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev1",
+      "project": "NeoNexus",
+      "title": "Design auth module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev2",
+      "project": "TactiCode",
+      "title": "Fix auth module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev2",
+      "project": "TactiCode",
+      "title": "Build dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev2",
+      "project": "TactiCode",
+      "title": "Design API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev2",
+      "project": "TactiCode",
+      "title": "Implement UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev2",
+      "project": "AstroAtlas",
+      "title": "Fix auth module",
+      "status": "in progress"
+    },
+    {
+      "developerId": "dev2",
+      "project": "AstroAtlas",
+      "title": "Build dashboard module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev2",
+      "project": "AstroAtlas",
+      "title": "Design API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev2",
+      "project": "AstroAtlas",
+      "title": "Implement UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev3",
+      "project": "ShopSphere",
+      "title": "Build UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev3",
+      "project": "ShopSphere",
+      "title": "Design auth module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev3",
+      "project": "ShopSphere",
+      "title": "Implement API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev3",
+      "project": "ShopSphere",
+      "title": "Fix dashboard module",
+      "status": "in progress"
+    },
+    {
+      "developerId": "dev3",
+      "project": "NeoNexus",
+      "title": "Design UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev3",
+      "project": "NeoNexus",
+      "title": "Fix auth module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev3",
+      "project": "NeoNexus",
+      "title": "Implement API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev3",
+      "project": "NeoNexus",
+      "title": "Build dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev4",
+      "project": "ShopSphere",
+      "title": "Design UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev4",
+      "project": "ShopSphere",
+      "title": "Build API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev4",
+      "project": "ShopSphere",
+      "title": "Implement auth module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev4",
+      "project": "ShopSphere",
+      "title": "Fix dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev4",
+      "project": "AstroAtlas",
+      "title": "Design UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev4",
+      "project": "AstroAtlas",
+      "title": "Build API module",
+      "status": "in progress"
+    },
+    {
+      "developerId": "dev4",
+      "project": "AstroAtlas",
+      "title": "Implement auth module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev4",
+      "project": "AstroAtlas",
+      "title": "Fix dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev5",
+      "project": "ShopSphere",
+      "title": "Design UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev5",
+      "project": "ShopSphere",
+      "title": "Build API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev5",
+      "project": "ShopSphere",
+      "title": "Implement auth module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev5",
+      "project": "ShopSphere",
+      "title": "Fix dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev5",
+      "project": "NeoNexus",
+      "title": "Design UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev5",
+      "project": "NeoNexus",
+      "title": "Build API module",
+      "status": "in progress"
+    },
+    {
+      "developerId": "dev5",
+      "project": "NeoNexus",
+      "title": "Implement auth module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev5",
+      "project": "NeoNexus",
+      "title": "Fix dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev6",
+      "project": "ShopSphere",
+      "title": "Build UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev6",
+      "project": "ShopSphere",
+      "title": "Design auth module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev6",
+      "project": "ShopSphere",
+      "title": "Implement API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev6",
+      "project": "ShopSphere",
+      "title": "Fix dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev6",
+      "project": "AstroAtlas",
+      "title": "Design UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev6",
+      "project": "AstroAtlas",
+      "title": "Build API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev6",
+      "project": "AstroAtlas",
+      "title": "Implement auth module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev6",
+      "project": "AstroAtlas",
+      "title": "Fix dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev7",
+      "project": "TactiCode",
+      "title": "Build UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev7",
+      "project": "TactiCode",
+      "title": "Design auth module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev7",
+      "project": "TactiCode",
+      "title": "Implement API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev7",
+      "project": "TactiCode",
+      "title": "Fix dashboard module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev7",
+      "project": "NeoNexus",
+      "title": "Design UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev7",
+      "project": "NeoNexus",
+      "title": "Build API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev7",
+      "project": "NeoNexus",
+      "title": "Implement auth module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev7",
+      "project": "NeoNexus",
+      "title": "Fix dashboard module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev8",
+      "project": "TactiCode",
+      "title": "Build UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev8",
+      "project": "TactiCode",
+      "title": "Design auth module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev8",
+      "project": "TactiCode",
+      "title": "Implement API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev8",
+      "project": "TactiCode",
+      "title": "Fix dashboard module",
+      "status": "pending"
+    },
+    {
+      "developerId": "dev8",
+      "project": "AstroAtlas",
+      "title": "Design UI module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev8",
+      "project": "AstroAtlas",
+      "title": "Build API module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev8",
+      "project": "AstroAtlas",
+      "title": "Implement auth module",
+      "status": "finished"
+    },
+    {
+      "developerId": "dev8",
+      "project": "AstroAtlas",
+      "title": "Fix dashboard module",
+      "status": "pending"
+    }
+  ],
+  "codingHours": [
+    {
+      "developerId": "dev1",
+      "project": "TactiCode",
+      "hours": 34
+    },
+    {
+      "developerId": "dev1",
+      "project": "NeoNexus",
+      "hours": 29
+    },
+    {
+      "developerId": "dev2",
+      "project": "TactiCode",
+      "hours": 40
+    },
+    {
+      "developerId": "dev2",
+      "project": "AstroAtlas",
+      "hours": 25
+    },
+    {
+      "developerId": "dev3",
+      "project": "ShopSphere",
+      "hours": 45
+    },
+    {
+      "developerId": "dev3",
+      "project": "NeoNexus",
+      "hours": 30
+    },
+    {
+      "developerId": "dev4",
+      "project": "ShopSphere",
+      "hours": 27
+    },
+    {
+      "developerId": "dev4",
+      "project": "AstroAtlas",
+      "hours": 20
+    },
+    {
+      "developerId": "dev5",
+      "project": "ShopSphere",
+      "hours": 32
+    },
+    {
+      "developerId": "dev5",
+      "project": "NeoNexus",
+      "hours": 23
+    },
+    {
+      "developerId": "dev6",
+      "project": "ShopSphere",
+      "hours": 38
+    },
+    {
+      "developerId": "dev6",
+      "project": "AstroAtlas",
+      "hours": 22
+    },
+    {
+      "developerId": "dev7",
+      "project": "TactiCode",
+      "hours": 28
+    },
+    {
+      "developerId": "dev7",
+      "project": "NeoNexus",
+      "hours": 26
+    },
+    {
+      "developerId": "dev8",
+      "project": "TactiCode",
+      "hours": 21
+    },
+    {
+      "developerId": "dev8",
+      "project": "AstroAtlas",
+      "hours": 24
+    }
+  ],
+  "activityLogs": [
+    {
+      "developerId": "dev1",
+      "activity": "Completed UI module for TactiCode",
+      "timestamp": "2025-06-01T09:20:00Z"
+    },
+    {
+      "developerId": "dev2",
+      "activity": "Fixed auth bugs on AstroAtlas",
+      "timestamp": "2025-06-02T11:35:00Z"
+    },
+    {
+      "developerId": "dev3",
+      "activity": "Started dashboard module on ShopSphere",
+      "timestamp": "2025-06-03T08:15:00Z"
+    },
+    {
+      "developerId": "dev4",
+      "activity": "Updated API module on AstroAtlas",
+      "timestamp": "2025-06-04T14:05:00Z"
+    },
+    {
+      "developerId": "dev5",
+      "activity": "Implemented auth module on NeoNexus",
+      "timestamp": "2025-06-05T10:45:00Z"
+    },
+    {
+      "developerId": "dev6",
+      "activity": "Reviewed UI designs for ShopSphere",
+      "timestamp": "2025-06-06T09:00:00Z"
+    },
+    {
+      "developerId": "dev7",
+      "activity": "Deployed latest build on TactiCode",
+      "timestamp": "2025-06-07T16:30:00Z"
+    },
+    {
+      "developerId": "dev8",
+      "activity": "Fixed dashboard bugs on AstroAtlas",
+      "timestamp": "2025-06-08T12:50:00Z"
+    }
+  ]
+}
