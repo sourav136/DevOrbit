@@ -1,0 +1,56 @@
+.help{
+    background-image: url(../../assets/images/Helpbg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 16px;
+    margin-top: 70px;
+}
+
+.help-icon-container{
+    border-radius: 12px;
+    background-color: var(--secondary-bg);
+    margin-bottom: 21px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-icon{
+    height: 18px;
+    width: 18px;
+    color: var(--primary-color);
+
+}
+
+.help-header{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+}
+
+.help-p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 9px;
+}
+
+.help-link{
+    padding: 10px 50px;
+    border-radius: 12px;
+    background-color: var(--secondary-bg);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+    color: #2d3748;
+}
